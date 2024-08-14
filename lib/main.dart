@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
 import 'package:zego_uikit_signaling_plugin/zego_uikit_signaling_plugin.dart';
@@ -43,7 +41,6 @@ class MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    log('${Session.currentUser?.id}');
     if (Session.currentUser != null) {
       AuthService.onUserLogin();
     }
@@ -63,7 +60,7 @@ class MyAppState extends State<MyApp> {
         ),
       ),
 
-      /// 5/5: Register the navigator key to MaterialApp
+      /// 5/8: Register the navigator key to MaterialApp
       navigatorKey: widget.navigatorKey,
       builder: (BuildContext context, Widget? child) {
         return Stack(

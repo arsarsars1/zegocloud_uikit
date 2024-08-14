@@ -30,11 +30,6 @@ class AuthService {
     await LocalStorage.instance.setString(Variables.cacheUserIDKey, json.encode(user.toJson()));
   }
 
-  /// Local virtual logout
-  static Future<void> logout() async {
-    await LocalStorage.instance.remove(Variables.cacheUserIDKey);
-  }
-
   /// On user login
   static void onUserLogin() {
     final currentUser = Session.currentUser!;
@@ -74,6 +69,11 @@ class AuthService {
         return config;
       },
     );
+  }
+
+  /// Local virtual logout
+  static Future<void> logout() async {
+    await LocalStorage.instance.remove(Variables.cacheUserIDKey);
   }
 
   /// On user logout
