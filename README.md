@@ -20,7 +20,7 @@ samples, guidance on mobile development, and a full API reference.
 # Watch tutorial video here:
 - https://youtu.be/SnY6_9ePwwE
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SnY6_9ePwwE?si=A5Ad1TBpyUsqe3TI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SnY6_9ePwwE/0.jpg)](https://www.youtube.com/watch?v=SnY6_9ePwwE)
 
 # Buy me a coffee here:
 https://www.paypal.com/paypalme/faisalramdan17
