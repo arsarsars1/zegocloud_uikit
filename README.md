@@ -20,7 +20,7 @@ samples, guidance on mobile development, and a full API reference.
 # Watch tutorial video here:
 - https://youtu.be/SnY6_9ePwwE
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SnY6_9ePwwE/0.jpg)](https://www.youtube.com/watch?v=SnY6_9ePwwE)
+[![Build a Flutter Video Call App in Minutes with ZEGOCLOUD UIKits](https://img.youtube.com/vi/SnY6_9ePwwE/0.jpg)](https://www.youtube.com/watch?v=SnY6_9ePwwE "Build a Flutter Video Call App in Minutes with ZEGOCLOUD UIKits")
 
 # Buy me a coffee here:
 https://www.paypal.com/paypalme/faisalramdan17
